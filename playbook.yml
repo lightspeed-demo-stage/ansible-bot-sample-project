@@ -4,5 +4,5 @@
   tasks:
     # Comment
     - name: Debug msg
-      debug:
+      ansible.builtin.debug:
         msg: Simple message
